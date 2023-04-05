@@ -246,21 +246,18 @@ int main(int argc, char* argv[]) {
 
 
 
-        // C?p nh?t tr?ng thái game
+        // update trang thai game
 
 
 
-        // ??t màu n?n cho renderer
+        // set color cho renderer
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, 0);
 
 
-
-        // Xóa màn hình tr??c khi v? các ??i t??ng m?i
         SDL_RenderClear(renderer);
 
-
-        // v? các th? lên màn hình 
-        // v? map
+        // ve nhan vat  
+        // ve map
         for (int row = 0; row < 20; row++) {
             for (int column = 0; column < 25; column++)
             {
